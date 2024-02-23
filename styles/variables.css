@@ -1,2 +1,7 @@
 :root {
+  --accent-color: #ff0070;
+  --bg-color: #000028;
+  --text-color: #f1b2ce;
+  --header-title-color: #db00ff;
+  --main-font: 'IBM Plex mono';
 }

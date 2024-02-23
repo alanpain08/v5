@@ -1,2 +1,14 @@
 .page.theme_dark {
+  --accent-color: #ff0070;
+  --bg-color: #000028;
+  --text-color: #f1b2ce;
+  --header-title-color: #db00ff;
+
+  background-image: url('../images/cover-image-dark.png');
+}
+
+@media (prefers-color-scheme: dark) {
+  .page {
+    background-image: url('../images/cover-image-dark.png');
+  }
 }
